@@ -1,0 +1,5 @@
+g++ -c -I "C:\Program Files\Java\jdk1.8.0_25\include" -I "C:\Program Files\Java\jdk1.8.0_25\include\win32" -I "D:\Gallery\Development_And_Programming\External Sources\libusb\include" D:\Gallery\Development_And_Programming\C++\Wi_Spy_Gen1_Detatch\MetaGeekWiSpyGen1.cpp
+
+E:\Programs\mingw-w64>g++ -shared -lusb-1.0 -L "D:\Gallery\Development_And_Programming\External Sources\libusb\MinGW64\d
+ll" D:\Gallery\Development_And_Programming\C++\Wi_Spy_Gen1_Detatch\MetaGeekWiSpyGen1.64bit.o -o "D:\Gallery\Development_
+And_Programming\C++\Wi_Spy_Gen1_Detatch\MetaGeekWiSpyGen1.64bit.dll" -l libusb-1.0

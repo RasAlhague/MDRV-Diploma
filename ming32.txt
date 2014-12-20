@@ -1,0 +1,300 @@
+     libusb_control_transfer(dev_handle, USB_ENDPOINT_IN + USB_TYPE_CLASS + USB_
+RECIP_INTERFACE, HID_GET_REPORT, (HID_RT_FEATURE << 8), 0, buf, buf_size, TIMEOU
+T);
+                                                                            ^
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/Program\ Files/Jav
+a/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Programs/MinGW/include/
+ddk -I D:/Gallery/Development_And_Programming/External\ Sources/libusb/include
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/Program\ Files/Jav
+a/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Programs/MinGW/include/
+ddk -I D:/Gallery/Development_And_Programming/External\ Sources/libusb/include
+-o
+.idea/
+CMakeLists.txt
+MetaGeekWiSpyGen1.co
+MetaGeekWiSpyGen1.cpp
+MetaGeekWiSpyGen1.o
+Wi_Spy_Gen1_Detatch
+com_rasalhague_mdrv_device_devices_MetaGeekWiSpyGen1.h
+log
+main.cpp
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/Program\ Files/Jav
+a/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Programs/MinGW/include/
+ddk -I D:/Gallery/Development_And_Programming/External\ Sources/libusb/include
+-o MetaGeekWiSpyGen1.dll
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/Program\ Files/Jav
+a/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Programs/MinGW/include/
+ddk -I D:/Gallery/Development_And_Programming/External\ Sources/libusb/include
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/Program\ Files/Jav
+a/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Programs/MinGW/include/
+ddk -I D:/Gallery/Development_And_Programming/External\ Sources/libusb/include
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -shared -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/Program\ F
+iles/Java/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Programs/MinGW/
+include/ddk -I D:/Gallery/Development_And_Programming/External\ Sources/libusb/
+include
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -shared -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/Program\ F
+iles/Java/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Programs/MinGW/
+include/ddk -I D:/Gallery/Development_And_Programming/External\ Sources/libusb/
+include
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -shared -lusb-1.0 -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/
+Program\ Files/Java/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Progr
+ams/MinGW/include/ddk -I D:/Gallery/Development_And_Programming/External\ Sourc
+es/libusb/include
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -shared -lusb-1.0 -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/
+Program\ Files/Java/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Progr
+ams/MinGW/include/ddk -I D:/Gallery/Development_And_Programming/External\ Sourc
+es/libusb/include
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o M
+MetaGeekWiSpyGen1.co   MetaGeekWiSpyGen1.o
+MetaGeekWiSpyGen1.cpp  main.cpp
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -Wl
+g++.exe: error: unrecognized command line option '-Wl'
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -Wl
+g++.exe: error: unrecognized command line option '-Wl'
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xf): undefined reference to `l
+ibusb_init@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x74): undefined reference to `
+libusb_set_debug@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xa1): undefined reference to `
+libusb_open_device_with_vid_pid@12'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x127): undefined reference to
+`libusb_kernel_driver_active@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x16e): undefined reference to
+`libusb_detach_kernel_driver@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x1d1): undefined reference to
+`libusb_claim_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x2cf): undefined reference to
+`libusb_control_transfer@32'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x3b3): undefined reference to
+`libusb_release_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x422): undefined reference to
+`libusb_close@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x432): undefined reference to
+`libusb_exit@4'
+e:/programs/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: M
+etaGeekWiSpyGen1.o: bad reloc address 0x0 in section `.ctors'
+collect2.exe: error: ld returned 1 exit status
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0
+e:/programs/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: c
+annot find -lusb-1.0
+collect2.exe: error: ld returned 1 exit status
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:/Gall
+ery/Development_And_Programming/External\ Sources/libusb/MinGW32/dll
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:/Gall
+ery/Development_And_Programming/External\ Sources/libusb/MinGW64/dll
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xf): undefined reference to `l
+ibusb_init@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x74): undefined reference to `
+libusb_set_debug@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xa1): undefined reference to `
+libusb_open_device_with_vid_pid@12'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x127): undefined reference to
+`libusb_kernel_driver_active@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x16e): undefined reference to
+`libusb_detach_kernel_driver@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x1d1): undefined reference to
+`libusb_claim_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x2cf): undefined reference to
+`libusb_control_transfer@32'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x3b3): undefined reference to
+`libusb_release_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x422): undefined reference to
+`libusb_close@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x432): undefined reference to
+`libusb_exit@4'
+e:/programs/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: M
+etaGeekWiSpyGen1.o: bad reloc address 0x0 in section `.ctors'
+collect2.exe: error: ld returned 1 exit status
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:/Gall
+ery/Development_And_Programming/External\ Sources/libusb/MinGW32/dll
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:/Gall
+ery/Development_And_Programming/External\ Sources/libusb/MinGW64/dll
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xf): undefined reference to `l
+ibusb_init@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x74): undefined reference to `
+libusb_set_debug@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xa1): undefined reference to `
+libusb_open_device_with_vid_pid@12'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x127): undefined reference to
+`libusb_kernel_driver_active@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x16e): undefined reference to
+`libusb_detach_kernel_driver@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x1d1): undefined reference to
+`libusb_claim_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x2cf): undefined reference to
+`libusb_control_transfer@32'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x3b3): undefined reference to
+`libusb_release_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x422): undefined reference to
+`libusb_close@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x432): undefined reference to
+`libusb_exit@4'
+e:/programs/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: M
+etaGeekWiSpyGen1.o: bad reloc address 0x0 in section `.ctors'
+collect2.exe: error: ld returned 1 exit status
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:/Gall
+ery/Development_And_Programming/External\ Sources/libusb/MinGW64/dll -m64
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xf): undefined reference to `l
+ibusb_init@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x74): undefined reference to `
+libusb_set_debug@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xa1): undefined reference to `
+libusb_open_device_with_vid_pid@12'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x127): undefined reference to
+`libusb_kernel_driver_active@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x16e): undefined reference to
+`libusb_detach_kernel_driver@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x1d1): undefined reference to
+`libusb_claim_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x2cf): undefined reference to
+`libusb_control_transfer@32'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x3b3): undefined reference to
+`libusb_release_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x422): undefined reference to
+`libusb_close@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x432): undefined reference to
+`libusb_exit@4'
+e:/programs/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: M
+etaGeekWiSpyGen1.o: bad reloc address 0x0 in section `.ctors'
+collect2.exe: error: ld returned 1 exit status
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -m64 -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:
+/Gallery/Development_And_Programming/External\ Sources/libusb/MinGW64/dll
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xf): undefined reference to `l
+ibusb_init@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x74): undefined reference to `
+libusb_set_debug@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xa1): undefined reference to `
+libusb_open_device_with_vid_pid@12'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x127): undefined reference to
+`libusb_kernel_driver_active@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x16e): undefined reference to
+`libusb_detach_kernel_driver@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x1d1): undefined reference to
+`libusb_claim_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x2cf): undefined reference to
+`libusb_control_transfer@32'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x3b3): undefined reference to
+`libusb_release_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x422): undefined reference to
+`libusb_close@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x432): undefined reference to
+`libusb_exit@4'
+e:/programs/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: M
+etaGeekWiSpyGen1.o: bad reloc address 0x0 in section `.ctors'
+collect2.exe: error: ld returned 1 exit status
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -c -shared -lusb-1.0 -I C:/Program\ Files/Java/jdk1.8.0_25/include -I C:/
+Program\ Files/Java/jdk1.8.0_25/include/win32 MetaGeekWiSpyGen1.cpp -I E:/Progr
+ams/MinGW/include/ddk -I D:/Gallery/Development_And_Programming/External\ Sourc
+es/libusb/include -m64
+MetaGeekWiSpyGen1.cpp:1:0: sorry, unimplemented: 64-bit mode not compiled in
+ #include <iostream>
+ ^
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:/Gall
+ery/Development_And_Programming/External\ Sources/libusb/MinGW64/dll
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xf): undefined reference to `l
+ibusb_init@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x74): undefined reference to `
+libusb_set_debug@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0xa1): undefined reference to `
+libusb_open_device_with_vid_pid@12'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x127): undefined reference to
+`libusb_kernel_driver_active@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x16e): undefined reference to
+`libusb_detach_kernel_driver@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x1d1): undefined reference to
+`libusb_claim_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x2cf): undefined reference to
+`libusb_control_transfer@32'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x3b3): undefined reference to
+`libusb_release_interface@8'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x422): undefined reference to
+`libusb_close@4'
+MetaGeekWiSpyGen1.o:MetaGeekWiSpyGen1.cpp:(.text+0x432): undefined reference to
+`libusb_exit@4'
+e:/programs/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/ld.exe: M
+etaGeekWiSpyGen1.o: bad reloc address 0x0 in section `.ctors'
+collect2.exe: error: ld returned 1 exit status
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ g++ -shared -o MetaGeekWiSpyGen1.dll MetaGeekWiSpyGen1.o -lusb-1.0 -L D:/Gall
+ery/Development_And_Programming/External\ Sources/libusb/MinGW32/dll
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ Diploma workDiploma work
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$ Diploma work
+
+RasAlhague@RasAlhague-PC /d/Gallery/Development_And_Programming/C++/Wi_Spy_Gen1_
+Detatch
+$
